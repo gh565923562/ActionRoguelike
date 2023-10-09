@@ -15,7 +15,7 @@ public:
 	UPROPERTY(EditAnywhere)
 	float TargetYaw;
 
-	void Interact_Implementation(APawn* InstigatorPawn) override;
+	virtual void Interact_Implementation(APawn* InstigatorPawn) override;
 	
 public:	
 	// Sets default values for this actor's properties
